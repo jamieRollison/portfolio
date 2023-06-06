@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import '../app.css';
+</script>
+
+<main class="h-screen">
+	<p class="text-md w-full text-center">This site is a ✨work in progress!✨</p>
+</main>

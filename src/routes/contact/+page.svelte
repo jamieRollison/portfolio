@@ -1,9 +1,34 @@
 <script>
 	import '../../app.css';
+	import ContactLink from '../../components/ContactLink.svelte';
+
+	const links = [
+		{
+			text: 'jamieRollison',
+			link: 'https://www.linkedin.com/in/jamierollison/',
+			icon: 'bi:linkedin'
+		},
+		{
+			text: 'jamieRollison',
+			link: 'https://www.github.com/jamierollison',
+			icon: 'bi:github'
+		},
+		{
+			text: 'rollisonjamie15@gmail.com',
+			link: 'mailto:rollisonjamie15@gmail.com',
+			icon: 'ic:round-email'
+		}
+	];
 </script>
 
 <main>
-	<h1 class="text-light text-sans text-5xl text-left pl-40 pt-10">Contact</h1>
-
-	<div class="w-20 h-20 thing" />
+	<h1 class="text-light text-5xl text-center pt-10">say hi</h1>
+	<ul class="text-light text-2xl w-full text-center pt-10">
+		{#each links as link}
+			<li class="inline-block w-fit mb-4">
+				<ContactLink {...link} />
+			</li>
+			<br />
+		{/each}
+	</ul>
 </main>

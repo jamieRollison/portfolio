@@ -3,10 +3,13 @@
 		<a href="/" class="text-light font-cookie pt-6 text-5xl">Jamie</a>
 		<ul class="flex justify-evenly w-80 pt-10">
 			<li class="text-light font-sans text-xl">
-				<a href="/projects" class="link-trans">projects</a>
+				<a href="/about" class="link-trans">about</a>
 			</li>
 			<li class="text-light font-sans text-xl">
-				<a href="/contact" class="link-wlw">contact</a>
+				<a href="/experience" class="link-wlw">experience</a>
+			</li>
+			<li class="text-light font-sans text-xl">
+				<a href="/contact" class="link-trans">contact</a>
 			</li>
 		</ul>
 	</nav>

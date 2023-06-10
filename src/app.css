@@ -12,7 +12,6 @@ h1 {
 
 a {
 	font-family: Questrial;
-	@apply link-animate;
 }
 
 p {

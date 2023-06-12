@@ -1,6 +1,5 @@
 <script>
 	import '../app.css';
-	import Icon from '@iconify/svelte';
 </script>
 
 <main class="h-fit">
@@ -12,7 +11,7 @@
 	</p> -->
 
 	<div class="w-100 flex flex-row justify-evenly">
-		<div class="w-1/2">
+		<div class="w-5/6 md:w-1/2">
 			<h1 class="text-light text-center text-5xl">hi! i'm jamie</h1>
 			<p class="text-light text-center pt-5">
 				I'm a computer science student at the University of Illinois Urbana Champaign with a minor
@@ -43,6 +42,6 @@
 			</div>
 			<p class="text-light text-center text-5xl mt-10">happy pride! 🏳️‍⚧️</p>
 		</div>
-		<img src="/chicago picture.png" class="w-1/4 self-center rounded-full" alt="me" />
+		<img src="/chicago picture.png" class="w-0 md:w-1/4 self-center rounded-full" alt="me" />
 	</div>
 </main>

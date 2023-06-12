@@ -13,7 +13,7 @@
 <svelte:window bind:innerWidth={w} />
 
 <main>
-	<nav class="h-fit px-5 pt-5 flex justify-between text-center">
+	<nav class="h-fit md:px-20 px-5 pt-5 flex justify-between text-center">
 		<a href="/" class="text-light font-cookie pt-6 text-5xl no-underline">Jamie</a>
 
 		{#if w > 768}
@@ -44,7 +44,7 @@
 			</div>
 		{/if}
 	</nav>
-	<div class="flex w-full justify-center">
+	<div class="flex w-screen justify-center">
 		<ul
 			class="w-80 self-center text-center bg-light text-dark rounded-lg
 			{!open && 'scale-y-0'} transition-all origin-top ease-in-out"

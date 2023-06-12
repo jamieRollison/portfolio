@@ -2,6 +2,7 @@
 	import Nav from '../components/Nav.svelte';
 	import '../app.css';
 	import SEO from '../components/SEO.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <SEO />
@@ -15,4 +16,6 @@
 	<Nav />
 
 	<slot />
+
+	<Footer />
 </main>

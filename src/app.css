@@ -12,6 +12,8 @@ h1 {
 
 a {
 	font-family: Questrial;
+	@apply underline;
+	@apply md:no-underline;
 }
 
 p {
@@ -27,7 +29,6 @@ p {
 
 	.link-trans {
 		@apply relative;
-		@apply no-underline;
 	}
 
 	.link-trans::after {
@@ -57,7 +58,6 @@ p {
 
 	.link-wlw {
 		@apply relative;
-		@apply no-underline;
 	}
 
 	.link-wlw::after {
@@ -89,7 +89,6 @@ p {
 
 	.link-animate {
 		@apply relative;
-		@apply no-underline;
 	}
 
 	.link-animate::after {
@@ -107,7 +106,6 @@ p {
 
 	.trans-underline {
 		@apply relative;
-		@apply no-underline;
 	}
 
 	.trans-underline-static::after {
@@ -135,7 +133,6 @@ p {
 
 	nav a[aria-current='true'] {
 		@apply relative;
-		@apply no-underline;
 		@apply trans-underline-static;
 	}
 }

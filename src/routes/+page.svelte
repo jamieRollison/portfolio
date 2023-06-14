@@ -1,6 +1,9 @@
 <script>
 	import '../app.css';
+	let w = 0;
 </script>
+
+<svelte:window bind:innerWidth={w} />
 
 <main class="h-fit">
 	<!-- <p class="text-md w-full text-center mt-40">
@@ -42,6 +45,8 @@
 			</div>
 			<p class="text-light text-center text-5xl mt-10">happy pride! 🏳️‍⚧️</p>
 		</div>
-		<img src="/chicago picture.png" class="w-0 md:w-1/4 self-center rounded-full" alt="me" />
+		{#if w > 768}
+			<img src="/chicago picture.png" class="w-1/4 self-center rounded-full" alt="me" />
+		{/if}
 	</div>
 </main>

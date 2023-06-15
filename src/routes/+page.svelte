@@ -20,7 +20,7 @@
 				<ul class="flex justify-evenly text-center text-light mt-4">
 					<li>
 						<div class="flex flex-col items-center">
-							<img src="/h4i-color.svg" class="w-16 mb-2" alt="hack4impact logo" />
+							<img src="/h4i-light.svg" class="w-16 mb-2" alt="hack4impact logo" />
 							<p class="w-fit">Social Good</p>
 						</div>
 					</li>

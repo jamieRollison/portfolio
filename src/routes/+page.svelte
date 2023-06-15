@@ -6,13 +6,6 @@
 <svelte:window bind:innerWidth={w} />
 
 <main class="h-fit">
-	<!-- <p class="text-md w-full text-center mt-40">
-		Happy Pride!
-		<a href="https://account.venmo.com/u/jamierollison" class="link-animate">
-			Do something nice for the community!
-		</a>
-	</p> -->
-
 	<div class="w-100 flex flex-row justify-evenly">
 		<div class="w-5/6 md:w-1/2">
 			<h1 class="text-light text-center text-5xl">hi! i'm jamie</h1>

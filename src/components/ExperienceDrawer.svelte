@@ -1,10 +1,8 @@
 <script lang="ts">
-	export let idx: number;
-	export let current: number;
-	export let toggle: () => void;
-	let open = false;
-
-	$: open = current === idx;
+	$: open = false;
+	const toggle = () => {
+		open = !open;
+	};
 </script>
 
 <main class="m-2">

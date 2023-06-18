@@ -19,17 +19,17 @@
 				<p>This is currently example text about h4i!</p>
 			</ExperienceDrawer>
 			<ExperienceDrawer>
-				<div slot="title" class="flex justify-between items-center p-2">
-					<div class="flex items-center justify-evenly w-1/8">
+				<div slot="title" class="flex justify-between items-center p-2 w-full">
+					<div class="flex items-center w-1/3">
 						<img
 							src="https://avatars.githubusercontent.com/u/2495066?s=200&v=4"
-							alt="intuit logo"
+							alt="hack4impact"
 							class="w-12 float-left p-1"
 						/>
 						<h2>Intuit</h2>
 					</div>
-					<p class="float-center">Software Engineer Intern - QuickBooks Mobile</p>
-					<p class="float-right">Summer 2023 - Present</p>
+					<p class="w-1/3 text-center">Software Engineer Intern</p>
+					<p class="float-right w-1/3 text-right">Summer 2023</p>
 				</div>
 				<p>This is currently example text about h4i!</p>
 			</ExperienceDrawer>

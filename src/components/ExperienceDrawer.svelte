@@ -6,7 +6,7 @@
 </script>
 
 <main class="m-2">
-	<div class="flex w-full flex-col justify-center">
+	<div class="flex w-full flex-col justify-center items-stretch">
 		<button
 			on:click={toggle}
 			on:keydown={toggle}

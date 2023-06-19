@@ -19,20 +19,20 @@
 				<h2 class="text-center mt-5 text-light text-4xl">things i'm most proud of</h2>
 				<ul class="flex justify-evenly text-center text-light mt-4">
 					<li>
-						<div class="flex flex-col items-center">
+						<a href="/experience" class="flex flex-col items-center">
 							<img src="/h4i-light.svg" class="w-16 mb-2" alt="hack4impact logo" />
 							<p class="w-fit">Social Good</p>
-						</div>
+						</a>
 					</li>
 					<li>
-						<div class="flex flex-col items-center">
+						<a href="/experience" class="flex flex-col items-center">
 							<img
 								src="https://avatars.githubusercontent.com/u/2495066?s=200&v=4"
 								class="w-16 mb-2 rounded-full"
 								alt="intuit logo"
 							/>
 							<p class="w-fit">Work Experience</p>
-						</div>
+						</a>
 					</li>
 				</ul>
 			</div>

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../../app.css';
 	import ExperienceDrawer from '../../components/ExperienceDrawer.svelte';
+	import ExperienceHeader from '../../components/ExperienceHeader.svelte';
 </script>
 
 <main>
@@ -8,29 +9,25 @@
 		<h1 class="text-center text-light text-3xl">experience</h1>
 		<div class="flex flex-col w-5/6">
 			<ExperienceDrawer>
-				<div slot="title" class="flex justify-between items-center p-2 w-full">
-					<div class="flex items-center">
-						<img src="/h4i-dark.svg" alt="hack4impact" class="w-12 float-left p-1" />
-						<h2>Hack4Impact</h2>
-					</div>
-					<p class="float-center">Software Developer</p>
-					<p class="float-right">Fall 2022 - Present</p>
-				</div>
+				<ExperienceHeader
+					slot="title"
+					icon="/h4i-dark.svg"
+					alt="hack4impact logo"
+					company="Hack4Impact"
+					position="Software Engineer"
+					date="September 2020 - Present"
+				/>
 				<p>This is currently example text about h4i!</p>
 			</ExperienceDrawer>
 			<ExperienceDrawer>
-				<div slot="title" class="flex justify-between items-center p-2 w-full">
-					<div class="flex items-center w-1/3">
-						<img
-							src="https://avatars.githubusercontent.com/u/2495066?s=200&v=4"
-							alt="hack4impact"
-							class="w-12 float-left p-1"
-						/>
-						<h2>Intuit</h2>
-					</div>
-					<p class="w-1/3 text-center">Software Engineer Intern</p>
-					<p class="float-right w-1/3 text-right">Summer 2023</p>
-				</div>
+				<ExperienceHeader
+					slot="title"
+					icon="https://avatars.githubusercontent.com/u/2495066?s=200&v=4"
+					alt="intuit logo"
+					company="Intuit"
+					position="Software Engineer Intern"
+					date="Summer 2023"
+				/>
 				<p>This is currently example text about h4i!</p>
 			</ExperienceDrawer>
 			<ExperienceDrawer />

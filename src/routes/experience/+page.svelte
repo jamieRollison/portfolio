@@ -14,7 +14,7 @@
 					icon="/h4i-dark.svg"
 					alt="hack4impact logo"
 					company="Hack4Impact"
-					position="Software Engineer"
+					position="Software Developer"
 					date="September 2020 - Present"
 				/>
 				<p>This is currently example text about h4i!</p>

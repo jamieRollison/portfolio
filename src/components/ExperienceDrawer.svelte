@@ -17,11 +17,12 @@
 		</button>
 		<div
 			class="text-dark text-1xl bg-secondary
-      {open ? 'scale-y-1' : 'scale-y-0'} 
-        transition-all
+       transition-all duration-500 {open ? 'min-h-fit scale-y-1' : 'max-h-0 scale-y-0'}
         origin-top
         border w-full rounded-b-md
-         p-1"
+        overflow-hidden
+         ease-in-out
+        p-1"
 		>
 			<slot />
 		</div>

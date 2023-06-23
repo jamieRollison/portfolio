@@ -4,6 +4,11 @@
 
 	const links = [
 		{
+			text: 'jamie.rollison',
+			link: 'https://www.instagram.com/jamie.rollison/',
+			icon: 'bi:instagram'
+		},
+		{
 			text: 'jamieRollison',
 			link: 'https://www.linkedin.com/in/jamierollison/',
 			icon: 'bi:linkedin'

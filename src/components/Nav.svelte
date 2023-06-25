@@ -48,8 +48,8 @@
 	</nav>
 	<div class="flex w-screen justify-center">
 		<ul
-			class="w-80 self-center h-fit text-center bg-light text-dark rounded-lg
-			{!open && 'scale-y-0'} mb-[-3rem] transition-all origin-top ease-in-out"
+			class="w-80 self-center h-fit text-center bg-secondary text-dark rounded-lg
+			{!open && 'scale-y-0'} mb-[-3rem] transition-all origin-top ease-in-out z-50 border border-dark"
 			on:click={closeMenu}
 			on:keydown={closeMenu}
 		>

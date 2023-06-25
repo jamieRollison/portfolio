@@ -10,7 +10,7 @@
 		<button
 			on:click={toggle}
 			on:keydown={toggle}
-			class="rounded-t-md border-b-0 text-dark text-2xl border bg-secondary"
+			class="rounded-t-md border-b-0 text-dark md:text-2xl border bg-secondary"
 		>
 			<slot name="title" />
 		</button>

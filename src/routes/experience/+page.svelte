@@ -45,14 +45,3 @@
 		</div>
 	</div>
 </main>
-
-<style>
-	.h4i-list {
-		display: list-item;
-		list-style-type: square;
-	}
-
-	.h4i-list li h3 {
-		@apply text-xl;
-	}
-</style>

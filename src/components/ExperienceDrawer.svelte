@@ -1,5 +1,5 @@
 <script lang="ts">
-	$: open = true;
+	$: open = false;
 	const toggle = () => {
 		open = !open;
 	};

@@ -14,16 +14,22 @@
 					icon="/h4i-dark.svg"
 					alt="hack4impact logo"
 					company="Hack4Impact"
-					position="Software Developer"
+					position="Software Developer | Tech Lead"
 					date="September 2020 - Present"
 				/>
-				<p>This is currently example text about h4i!</p>
-				<p>This is currently example text about h4i!</p>
-				<p>This is currently example text about h4i!</p>
-				<p>This is currently example text about h4i!</p>
-				<p>This is currently example text about h4i!</p>
-				<p>This is currently example text about h4i!</p>
-				<p>This is currently example text about h4i!</p>
+				<ul class="px-6 list-disc h4i-list">
+					<li>
+						<h3>Tech Lead - Upcoming (Fall 2023)</h3>
+					</li>
+					<li>
+						<h3>Software Developer - ClearPath NYC (Spring 2023)</h3>
+						<h4>React, Styled Components, Firebase</h4>
+					</li>
+					<li>
+						<h3>Software Developer - 7000 Languages (Fall 2022)</h3>
+						<h4>React Native, MongoDB, Expo</h4>
+					</li>
+				</ul>
 			</ExperienceDrawer>
 			<ExperienceDrawer>
 				<ExperienceHeader
@@ -34,9 +40,19 @@
 					position="Software Engineer Intern"
 					date="Summer 2023"
 				/>
-				<p>This is currently example text about h4i!</p>
 			</ExperienceDrawer>
 			<ExperienceDrawer />
 		</div>
 	</div>
 </main>
+
+<style>
+	.h4i-list {
+		display: list-item;
+		list-style-type: square;
+	}
+
+	.h4i-list li h3 {
+		@apply text-xl;
+	}
+</style>

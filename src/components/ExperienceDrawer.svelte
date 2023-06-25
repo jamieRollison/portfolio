@@ -1,5 +1,5 @@
 <script lang="ts">
-	$: open = false;
+	$: open = true;
 	const toggle = () => {
 		open = !open;
 	};
@@ -10,19 +10,20 @@
 		<button
 			on:click={toggle}
 			on:keydown={toggle}
-			class="rounded-t-md {!open &&
-				'delay-100 rounded-b-md'} text-dark text-2xl border border-b-1 bg-secondary"
+			class="rounded-t-md border-b-0 text-dark text-2xl border bg-secondary"
 		>
 			<slot name="title" />
 		</button>
 		<div
-			class="text-dark text-1xl bg-secondary
-       transition-all duration-500 {open ? 'min-h-fit scale-y-1' : 'max-h-0 scale-y-0'}
+			class="{open ? 'open' : 'closed'}
+       border-t-0
+      text-dark text-1xl bg-secondary
         origin-top
         border w-full rounded-b-md
         overflow-hidden
-         ease-in-out
-        p-1"
+        ease-in-out
+        p-1
+      "
 		>
 			<slot />
 		</div>

@@ -135,4 +135,16 @@ p {
 		@apply relative;
 		@apply trans-underline-static;
 	}
+
+	.closed {
+		max-height: 0;
+		transition: max-height 0.5s ease-in-out;
+		overflow: hidden;
+		background: #d5d5d5;
+	}
+
+	.open {
+		max-height: 20rem;
+		transition: max-height 0.5s ease-in-out;
+	}
 }

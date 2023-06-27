@@ -2,6 +2,7 @@
 	import '../../app.css';
 	import ExperienceDrawer from '../../components/Experience/ExperienceDrawer.svelte';
 	import ExperienceHeader from '../../components/Experience/ExperienceHeader.svelte';
+	import Icon from '@iconify/svelte';
 </script>
 
 <main>
@@ -15,26 +16,35 @@
 						icon="/h4i-dark.svg"
 						alt="hack4impact logo"
 						company="Hack4Impact"
-						position="Software Developer | Tech Lead"
+						position="Tech Lead | Software Developer"
 						date="September 2020 - Present"
 					/>
-					<ul class="px-6 list-disc">
+					<ul class="px-6 list-disc space-y-2">
 						<li>
 							<h3 class="md:text-xl">Tech Lead - Upcoming (Fall 2023)</h3>
 						</li>
+						<hr />
 						<li>
-							<h3 class="md:text-xl">Software Developer - ClearPath NYC (Spring 2023)</h3>
-							<h4 class="hidden md:visible">React, Styled Components, Firebase</h4>
-							<hr />
-							<p class="text-sm md:text-md">
-								this is the sort of smaller text description that needs to be legible on mobile
+							<span class="flex md:text-xl items-center space-x-2">
+								<h3>Software Developer - ClearPath NYC (Spring 2023)</h3>
+								<a href="https://github.com/ClearPathNYC" target="_blank">
+									<Icon icon="bi:github" />
+								</a>
+							</span>
+							<h4 class="invisible md:visible">React, Styled Components, Firebase</h4>
+
+							<p class="text-sm md:text-lg mt-2">
+								PWA which connects house-less youth with public and nonprofit resources
 							</p>
 						</li>
+						<hr />
 						<li>
 							<h3 class="md:text-xl">Software Developer - 7000 Languages (Fall 2022)</h3>
-							<h4 class="hidden md:visible">React Native, MongoDB, Expo</h4>
-							<hr />
-							<p class="text-sm md:text-md">7000 lang discription</p>
+							<h4 class="invisible md:visible">React Native, MongoDB, Expo</h4>
+
+							<p class="text-sm md:text-lg my-2">
+								App to build modular language learning courses which preserve endangered languages
+							</p>
 						</li>
 					</ul>
 				</ExperienceDrawer>

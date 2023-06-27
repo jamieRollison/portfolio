@@ -13,6 +13,6 @@
 			<h2>{company}</h2>
 		</div>
 		<p class="text-center w-1/3">{position}</p>
-		<p class="float-right hidden md:visible w-1/3 text-right">{date}</p>
+		<p class="float-right invisible md:visible w-1/3 text-right">{date}</p>
 	</div>
 </main>

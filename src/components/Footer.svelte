@@ -3,7 +3,7 @@
 </script>
 
 <main>
-	<footer class="mt-10 pt-2 md:fixed left-0 bg-primary bottom-0 h-fit w-screen">
+	<footer class="mt-10 fixed pt-2 left-0 bg-primary bottom-0 h-fit w-screen border-t">
 		<span class="flex justify-center">
 			<p class="text-center text-light text-sm pb-5">made with svelte</p>
 			<Icon icon="simple-icons:svelte" class="text-light ml-1" />

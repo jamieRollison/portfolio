@@ -15,7 +15,8 @@
 	</div>
 	<Nav />
 
-	<slot />
-
-	<Footer />
+	<div class="">
+		<slot />
+		<Footer />
+	</div>
 </main>

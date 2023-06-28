@@ -59,6 +59,24 @@
 						position="Software Engineer Intern"
 						date="Summer 2023"
 					/>
+					<div class="px-2">
+						<h3 class="md:text-xl">Product Developer - Quickbooks Mobile</h3>
+						<h4 class="invisible md:visible">Kotlin, Java, Jetpack Compose, Android Studio</h4>
+
+						<ul class="list-disc px-6">
+							<li class="text-sm md:text-lg my-2">
+								Developed features for Quickbooks Mobile, a mobile app for small business owners to
+								manage their finances
+							</li>
+							<li class="text-sm md:text-lg my-2">
+								Worked on the QBM Automated Accounting team, which categorizes transactions for
+								Quickbooks users to save them time
+							</li>
+							<li class="text-sm md:text-lg my-2">
+								Implemented a new feature to allow users to track bank deposits in-app
+							</li>
+						</ul>
+					</div>
 				</ExperienceDrawer>
 			</li>
 			<li>

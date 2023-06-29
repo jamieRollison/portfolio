@@ -3,12 +3,12 @@
 </script>
 
 <main>
-	<footer class="mt-10 fixed pt-2 left-0 bg-primary bottom-0 h-fit w-screen border-t">
+	<footer class="fixed pt-2 left-0 bg-primary bottom-0 h-fit w-screen border-t">
 		<span class="flex justify-center">
-			<p class="text-center text-light text-sm pb-5">made with svelte</p>
+			<p class="text-center text-light text-sm">made with svelte</p>
 			<Icon icon="simple-icons:svelte" class="text-light ml-1" />
 			<a
-				class="text-center text-light text-sm pb-5 ml-1 underline"
+				class="text-center text-light text-sm pb-2 ml-1 underline"
 				href="https://www.github.com/jamieRollison/portfolio"
 				target="blank"
 			>

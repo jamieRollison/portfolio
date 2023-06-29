@@ -147,4 +147,42 @@ p {
 		max-height: 20rem;
 		transition: max-height 0.5s ease-in-out;
 	}
+
+	.wheel {
+		animation: spin 2s linear infinite, wait 1s linear infinite;
+	}
+
+	@keyframes spin {
+		0% {
+			@apply translate-y-[-1rem];
+			@apply opacity-0;
+		}
+
+		50% {
+			@apply translate-y-0;
+			@apply opacity-100;
+		}
+
+		100% {
+			@apply translate-y-[1rem];
+			@apply opacity-0;
+		}
+	}
+
+	@keyframes wait {
+		0% {
+			opacity: 1;
+		}
+		50% {
+			opacity: 1;
+		}
+		50.01% {
+			opacity: 0;
+			visibility: none;
+		}
+		100% {
+			opacity: 0;
+			visibility: none;
+		}
+	}
 }

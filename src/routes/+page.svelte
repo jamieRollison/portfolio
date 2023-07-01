@@ -36,7 +36,6 @@
 					</li>
 				</ul>
 			</div>
-			<p class="text-light text-center text-5xl mt-10">happy pride! 🏳️‍⚧️</p>
 		</div>
 		{#if w > 768}
 			<img src="/chicago picture.png" class="w-1/4 self-center rounded-full" alt="me" />

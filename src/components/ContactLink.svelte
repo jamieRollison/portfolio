@@ -6,9 +6,7 @@
 	export let text = '';
 </script>
 
-<main>
-	<a href={link} class="flex flex-row space-x-2 link-animate" target="_blank">
-		<Icon {icon} class="mt-1" />
-		<p>{text}</p>
-	</a>
-</main>
+<a href={link} class="flex flex-row space-x-2 link-animate" target="_blank">
+	<Icon {icon} class="mt-1" />
+	<p>{text}</p>
+</a>

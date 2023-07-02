@@ -5,7 +5,7 @@
 
 <svelte:window bind:innerWidth={w} />
 
-<main class="h-fit">
+<div class="h-fit">
 	<div class="w-100 flex flex-row justify-evenly">
 		<div class="w-5/6 md:w-1/2">
 			<h1 class="text-light text-center text-5xl">hi! i'm jamie</h1>
@@ -41,4 +41,4 @@
 			<img src="/chicago picture.png" class="w-1/4 self-center rounded-full" alt="me" />
 		{/if}
 	</div>
-</main>
+</div>

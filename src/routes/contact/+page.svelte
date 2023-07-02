@@ -26,14 +26,12 @@
 	];
 </script>
 
-<main>
-	<h1 class="text-light text-5xl text-center pt-10">say hi</h1>
-	<ul class="text-light text-2xl w-full text-center pt-10">
-		{#each links as link}
-			<li class="inline-block w-fit mb-4">
-				<ContactLink {...link} />
-			</li>
-			<br />
-		{/each}
-	</ul>
-</main>
+<h1 class="text-light text-5xl text-center pt-10">say hi</h1>
+<ul class="text-light text-2xl w-full text-center pt-10">
+	{#each links as link}
+		<li class="inline-block w-fit mb-4">
+			<ContactLink {...link} />
+		</li>
+		<br />
+	{/each}
+</ul>

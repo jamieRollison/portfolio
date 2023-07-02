@@ -5,7 +5,7 @@
 	};
 </script>
 
-<main class="m-2">
+<div class="m-2">
 	<div class="flex w-full flex-col justify-center items-stretch">
 		<button
 			on:click={toggle}
@@ -28,4 +28,4 @@
 			<slot />
 		</div>
 	</div>
-</main>
+</div>

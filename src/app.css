@@ -149,7 +149,7 @@ p {
 	}
 
 	.wheel {
-		animation: spin 2s linear infinite, wait 1s linear infinite;
+		animation: spin linear infinite;
 	}
 
 	@keyframes spin {
@@ -158,7 +158,11 @@ p {
 			@apply opacity-0;
 		}
 
-		50% {
+		10% {
+			@apply translate-y-0;
+			@apply opacity-100;
+		}
+		90% {
 			@apply translate-y-0;
 			@apply opacity-100;
 		}
@@ -172,17 +176,22 @@ p {
 	@keyframes wait {
 		0% {
 			opacity: 1;
-		}
-		50% {
-			opacity: 1;
-		}
-		50.01% {
-			opacity: 0;
-			visibility: none;
+			translate-y: 0;
 		}
 		100% {
-			opacity: 0;
-			visibility: none;
+			opacity: 1;
+			translate-y: 0;
 		}
+	}
+
+	.tile {
+		border-color: linear-gradient(
+			to right,
+			#5bcefa 20%,
+			#f5a9b8 20% 40%,
+			#ffffff 40% 60%,
+			#f5a9b8 60% 80%,
+			#5bcefa 80%
+		);
 	}
 }

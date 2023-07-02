@@ -14,7 +14,9 @@
 
 <span class="flex justify-center space-x-1">
 	<h1 class="text-center text-light">I'm a</h1>
-	<h1 class="wheel text-center text-light w-40 border" style="animation-duration: {ms}ms;">
-		{testItems[idx]}
-	</h1>
+	<span class="border border-light overflow-hidden">
+		<h1 class="wheel text-center text-light w-40" style="animation-duration: {ms}ms;">
+			{testItems[idx]}
+		</h1>
+	</span>
 </span>

@@ -16,7 +16,7 @@
 					alt="hack4impact logo"
 					company="Hack4Impact"
 					position="Tech Lead | Software Developer"
-					date="September 2020 - Present"
+					date="September 2022 - Present"
 				/>
 				<ul class="px-6 list-disc space-y-2">
 					<li>
@@ -79,7 +79,16 @@
 			</ExperienceDrawer>
 		</li>
 		<li>
-			<ExperienceDrawer />
+			<ExperienceDrawer>
+				<ExperienceHeader
+					slot="title"
+					icon="ostem-logo.png"
+					alt="ostem logo"
+					company="oSTEM"
+					position="President | Secretary"
+					date="October 2022 - Present"
+				/>
+			</ExperienceDrawer>
 		</li>
 	</ul>
 </div>

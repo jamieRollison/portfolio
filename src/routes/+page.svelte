@@ -6,7 +6,7 @@
 <svelte:window bind:innerWidth={w} />
 
 <div class="h-fit">
-	<div class="w-100 flex flex-row justify-evenly">
+	<div class="w-100 flex flex-row justify-between md:px-20">
 		<div class="w-5/6 md:w-1/2">
 			<h1 class="text-light text-left text-5xl">hi! i'm jamie</h1>
 			<p class="text-light text-left pt-5">
@@ -31,7 +31,7 @@
 								class="w-16 mb-2 rounded-full"
 								alt="intuit logo"
 							/>
-							<p class="w-fit">Work Experience</p>
+							<p class="w-fit">Android Dev</p>
 						</a>
 					</li>
 				</ul>

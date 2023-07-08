@@ -11,6 +11,6 @@
 		<img src={icon} {alt} class="w-12 float-left p-1" />
 		<h2>{company}</h2>
 	</div>
-	<p class="text-center w-1/3">{position}</p>
-	<p class="float-right invisible md:visible w-1/3 text-right">{date}</p>
+	<p class="text-center md:w-1/3">{position}</p>
+	<p class="float-right invisible w-0 md:visible md:w-1/3 text-right">{date}</p>
 </div>

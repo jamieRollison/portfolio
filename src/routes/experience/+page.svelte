@@ -88,6 +88,10 @@
 					position="President | Secretary"
 					date="October 2022 - Present"
 				/>
+				<ul class="list-disc px-6 text-lg">
+					<li>Sent weekly newsletters to members with upcoming events and opportunities</li>
+					<li>Main point of contact between general members and exec using Discord</li>
+				</ul>
 			</ExperienceDrawer>
 		</li>
 	</ul>

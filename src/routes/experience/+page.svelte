@@ -9,17 +9,6 @@
 <div class="flex flex-col items-center w-screen">
 	<h1 class="text-center text-light text-3xl">experience</h1>
 
-	<!-- <HackathonCard
-		name="Ligo"
-		img="ligo.png"
-		description="Ligo is a tool to track an event and its attendees' carbon footprint."
-		event="Boilermake X"
-		techStack="sveltekit"
-		live="https://www.ligoismore.tech/"
-		gh="https://www.github.com/jamieRollison/ligo"
-		devpost="https://devpost.com/software/ligo"
-	/> -->
-
 	<div class="flex flex-col md:w-5/6">
 		<ExperienceDrawer>
 			<ExperienceHeader
@@ -103,4 +92,30 @@
 		</ExperienceDrawer>
 	</div>
 	<h1 class="text-center text-light text-3xl mt-2">hackathons</h1>
+
+	<div class="flex">
+		<HackathonCard
+			win="Best Water, Food, Health, or Climate Hack"
+			name="Ligo"
+			img="ligo.png"
+			description="Ligo is a tool to track an event and its attendees' carbon footprint."
+			event="Boilermake X"
+			techStack="Sveltekit, Tailwind, MongoDB"
+			live="https://www.ligoismore.tech/"
+			gh="https://www.github.com/jamieRollison/ligo"
+			devpost="https://devpost.com/software/ligo"
+		/>
+
+		<HackathonCard
+			win="AthenaHacks Favorite"
+			name="Forte"
+			img="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/401/912/datas/gallery.jpg"
+			description="Social Media App where users share their song of the day."
+			event="AthenaHacks 2023"
+			techStack="Tailwind, MERN"
+			live=""
+			gh="https://www.github.com/jamieRollison/forte"
+			devpost="https://devpost.com/software/forte-y8zj35"
+		/>
+	</div>
 </div>

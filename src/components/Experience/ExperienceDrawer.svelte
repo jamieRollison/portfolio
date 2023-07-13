@@ -16,9 +16,9 @@
 				<slot name="title" />
 				<span
 					class="text-xl self-center float-right text-end max-w-fit mr-4 transition-all delay-150 transform
-					{open && 'rotate-[-90deg]'}"
+					{open && 'rotate-90'}"
 				>
-					▾
+					▸
 				</span>
 			</div>
 		</button>

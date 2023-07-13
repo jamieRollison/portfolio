@@ -98,7 +98,7 @@
 	</div>
 	<h1 class="text-center text-light text-3xl mt-2">hackathons</h1>
 
-	<div class="flex">
+	<div class="flex md:w-5/6 justify-between">
 		<HackathonCard
 			win="Best Water, Food, Health, or Climate Hack"
 			name="Ligo"

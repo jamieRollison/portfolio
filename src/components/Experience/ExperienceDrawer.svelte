@@ -12,7 +12,15 @@
 			on:keydown={toggle}
 			class="rounded-t-md border-b-0 text-dark md:text-2xl border bg-secondary"
 		>
-			<slot name="title" />
+			<div class="flex justify-between mt-2">
+				<slot name="title" />
+				<span
+					class="text-xl self-center float-right text-end max-w-fit mr-4 transition-all delay-150 transform
+					{open && 'rotate-[-90deg]'}"
+				>
+					▾
+				</span>
+			</div>
 		</button>
 		<div
 			class="{open ? 'open' : 'closed'}

@@ -12,7 +12,7 @@ export default {
 		fontFamily: {
 			sans: ['Questrial', 'Inter', 'sans-serif'],
 			questrial: ['Questrial', 'sans-serif'],
-			cookie: ['Cookie', 'cursive']
+			cookie: ['Smooch', 'Questrial']
 		}
 	},
 	plugins: []

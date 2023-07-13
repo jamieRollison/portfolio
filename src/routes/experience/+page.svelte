@@ -27,8 +27,8 @@
 				<li>
 					<span class="flex md:text-xl items-center space-x-2">
 						<h3>Software Developer - ClearPath NYC (Spring 2023)</h3>
-						<a href="https://github.com/ClearPathNYC" target="_blank">
-							<Icon icon="bi:github" />
+						<a title="deployed live!" href="https://clearpathnyc.com/dashboard" target="_blank">
+							<Icon icon="bi:globe" />
 						</a>
 					</span>
 					<h4 class="invisible md:visible">React, Styled Components, Firebase</h4>
@@ -39,7 +39,12 @@
 				</li>
 				<hr />
 				<li>
-					<h3 class="md:text-xl">Software Developer - 7000 Languages (Fall 2022)</h3>
+					<span class="flex md:text-xl items-center space-x-2">
+						<h3 class="md:text-xl">Software Developer - 7000 Languages (Fall 2022)</h3>
+						<a href="https://github.com/hack4impact-uiuc/7000-languages" target="_blank">
+							<Icon icon="bi:github" />
+						</a>
+					</span>
 					<h4 class="invisible md:visible">React Native, MongoDB, Expo</h4>
 
 					<p class="text-sm md:text-lg my-2">
@@ -82,10 +87,10 @@
 				icon="ostem-logo.png"
 				alt="ostem logo"
 				company="oSTEM"
-				position="President | Secretary"
+				position="Co-President (Fall 2023-) | Secretary"
 				date="October 2022 - Present"
 			/>
-			<ul class="list-disc px-6 text-lg">
+			<ul class="list-disc px-8 pb-4 text-lg">
 				<li>Sent weekly newsletters to members with upcoming events and opportunities</li>
 				<li>Main point of contact between general members and exec using Discord</li>
 			</ul>
@@ -116,6 +121,18 @@
 			live=""
 			gh="https://www.github.com/jamieRollison/forte"
 			devpost="https://devpost.com/software/forte-y8zj35"
+		/>
+
+		<HackathonCard
+			win="We had fun :)"
+			name="Letra"
+			img="letra.png"
+			description="Providing a space for users to create customizable digital letters."
+			event="UncommonHacks 2023"
+			techStack="Tailwind, MERN, Typescript"
+			live=""
+			gh="https://www.github.com/jamieRollison/uncommonhacks23"
+			devpost="https://devpost.com/software/letra"
 		/>
 	</div>
 </div>

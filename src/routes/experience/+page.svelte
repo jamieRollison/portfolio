@@ -9,7 +9,7 @@
 <div class="flex flex-col items-center w-screen">
 	<h1 class="text-center text-light text-3xl">experience</h1>
 
-	<div class="flex flex-col md:w-5/6">
+	<div class="flex flex-col md:w-4/6">
 		<ExperienceDrawer>
 			<ExperienceHeader
 				slot="title"
@@ -87,7 +87,7 @@
 				icon="ostem-logo.png"
 				alt="ostem logo"
 				company="oSTEM"
-				position="Co-President (Fall 2023-) | Secretary"
+				position="Co-President | Secretary"
 				date="October 2022 - Present"
 			/>
 			<ul class="list-disc px-8 pb-4 text-lg">
@@ -98,9 +98,9 @@
 	</div>
 	<h1 class="text-center text-light text-3xl mt-2">hackathons</h1>
 
-	<div class="flex md:w-5/6 justify-between">
+	<div class="flex md:w-4/6 justify-between">
 		<HackathonCard
-			win="Best Water, Food, Health, or Climate Hack"
+			win="Best Climate Hack"
 			name="Ligo"
 			img="ligo.png"
 			description="Ligo is a tool to track an event and its attendees' carbon footprint."

@@ -21,12 +21,6 @@ p {
 }
 
 @layer components {
-	.text-md {
-		@apply text-light;
-		@apply text-2xl;
-		@apply text-left;
-	}
-
 	.link-trans {
 		@apply relative;
 	}

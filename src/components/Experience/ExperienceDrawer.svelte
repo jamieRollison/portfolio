@@ -10,7 +10,7 @@
 		<button
 			on:click={toggle}
 			on:keydown={toggle}
-			class="rounded-t-md border-b-0 text-dark md:text-2xl border bg-secondary"
+			class="rounded-t-md border-b-0 text-dark md:text-2xl border bg-light"
 		>
 			<div class="flex justify-between mt-2">
 				<slot name="title" />
@@ -25,7 +25,7 @@
 		<div
 			class="{open ? 'open' : 'closed'}
        border-t-0
-      text-dark text-1xl bg-secondary
+      text-dark text-1xl bg-light
         origin-top
         border w-full rounded-b-md
         overflow-hidden

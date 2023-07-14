@@ -6,7 +6,7 @@
 	export let alt = '';
 </script>
 
-<div class=" flex justify-between items-center p-2 w-full">
+<div class="flex justify-between items-center p-2 w-full text-xl">
 	<div class="flex items-center w-1/3">
 		<img src={icon} {alt} class="w-12 float-left p-1" />
 		<h2>{company}</h2>

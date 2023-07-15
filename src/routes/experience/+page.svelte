@@ -96,7 +96,7 @@
 			</ul>
 		</ExperienceDrawer>
 	</div>
-	<h1 class="text-center text-light text-3xl mt-2">hackathons</h1>
+	<h1 id="hackathons" class="text-center text-light text-3xl mt-2">hackathons</h1>
 
 	<div class="flex md:w-4/6 justify-between">
 		<HackathonCard

@@ -34,6 +34,12 @@
 							<p class="w-fit">Android Dev</p>
 						</a>
 					</li>
+					<li>
+						<a href="/experience#hackathons" class="flex flex-col items-center">
+							<img src="/letra.png" class="h-16 mb-2 rounded-full" alt="intuit logo" />
+							<p class="w-fit">Hackathons</p>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>

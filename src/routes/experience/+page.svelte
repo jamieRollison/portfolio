@@ -7,7 +7,7 @@
 </script>
 
 <div class="flex flex-col items-center w-screen">
-	<h1 class="text-center text-light text-3xl">experience</h1>
+	<h1 class="text-center text-light text-4xl">experience</h1>
 
 	<div class="flex flex-col md:w-4/6">
 		<ExperienceDrawer>
@@ -96,7 +96,7 @@
 			</ul>
 		</ExperienceDrawer>
 	</div>
-	<h1 id="hackathons" class="text-center text-light text-3xl mt-2">hackathons</h1>
+	<h1 id="hackathons" class="text-center text-light text-4xl mt-10">hackathons</h1>
 
 	<div class="flex md:w-4/6 justify-between">
 		<HackathonCard

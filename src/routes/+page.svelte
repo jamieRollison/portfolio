@@ -9,23 +9,24 @@
 	<div class="w-100 flex flex-row justify-between md:px-20">
 		<div class="w-5/6 md:w-1/2">
 			<h1 class="text-light text-left text-5xl">hi! i'm jamie</h1>
-			<p class="text-light text-left pt-5">
+			<p class="text-light text-left pt-5 text-xl">
 				I'm a computer science student at the University of Illinois Urbana Champaign with a minor
-				in linguistics. Most of what I do is web development, and I think of myself as a backend dev
-				first. I'm active in the UIUC LGBTQ+ and tech for good spaces. I try to make the world a
-				better place!
+				in linguistics. Most of what I do is web development, and I love backend and frontend! But
+				I'm currently a frontend android dev at Intuit. I'm active in the UIUC <span
+					class="trans-underline-static-skinny">LGBTQ+</span
+				> and tech for good spaces. I try to make the world a better place!
 			</p>
 			<div>
 				<h2 class="text-left mt-5 text-light text-4xl">things i'm most proud of</h2>
 				<ul class="flex justify-start space-x-10 text-center text-light mt-4">
 					<li>
-						<a href="/experience" class="flex flex-col items-center">
+						<a href="/experience#hack" class="flex flex-col items-center">
 							<img src="/h4i-light.svg" class="w-16 mb-2" alt="hack4impact logo" />
 							<p class="w-fit">Social Good</p>
 						</a>
 					</li>
 					<li>
-						<a href="/experience" class="flex flex-col items-center">
+						<a href="/experience#intuit" class="flex flex-col items-center">
 							<img
 								src="https://avatars.githubusercontent.com/u/2495066?s=200&v=4"
 								class="w-16 mb-2 rounded-full"

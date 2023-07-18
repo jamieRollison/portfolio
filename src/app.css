@@ -98,7 +98,7 @@ p {
 		transform: scaleX(0);
 	}
 
-	.trans-underline {
+	.trans-underline-static {
 		@apply relative;
 	}
 
@@ -118,6 +118,11 @@ p {
 			#5bcefa 80%
 		);
 		transform: scaleX(1);
+	}
+
+	.trans-underline-static-skinny {
+		@apply trans-underline-static;
+		@apply after:h-[1px];
 	}
 
 	.link-animate:hover::after {

@@ -1,8 +1,20 @@
 <script lang="ts">
-	$: open = false;
+	import { onMount } from 'svelte';
+
+	let open = false;
 	const toggle = () => {
 		open = !open;
 	};
+	export let id: string;
+
+	onMount(() => {
+		// this is dumb but it causes the animation to play
+		setTimeout(() => {
+			if (window.location.hash === `#${id}`) {
+				toggle();
+			}
+		}, 0);
+	});
 </script>
 
 <div class="m-2">

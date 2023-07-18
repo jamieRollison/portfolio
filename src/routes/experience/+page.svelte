@@ -10,7 +10,7 @@
 	<h1 class="text-center text-light text-4xl">experience</h1>
 
 	<div class="flex flex-col md:w-4/6">
-		<ExperienceDrawer>
+		<ExperienceDrawer id="hack">
 			<ExperienceHeader
 				slot="title"
 				icon="/h4i-dark.svg"
@@ -53,7 +53,7 @@
 				</li>
 			</ul>
 		</ExperienceDrawer>
-		<ExperienceDrawer>
+		<ExperienceDrawer id="intuit">
 			<ExperienceHeader
 				slot="title"
 				icon="https://avatars.githubusercontent.com/u/2495066?s=200&v=4"
@@ -81,7 +81,7 @@
 				</ul>
 			</div>
 		</ExperienceDrawer>
-		<ExperienceDrawer>
+		<ExperienceDrawer id="ostem">
 			<ExperienceHeader
 				slot="title"
 				icon="ostem-logo.png"

@@ -12,7 +12,7 @@
 </script>
 
 <div class="h-fit w-1/3 bg-light border rounded flex-col flex text-center justify-center p-4 m-2">
-	<h1 class="text-sm">⭐️ {win} ⭐️</h1>
+	<h1 class="text-sm mt-1">⭐️ {win} ⭐️</h1>
 	<div class="h-60 flex justify-center">
 		<img src={img} alt="{name} title" class="w-60 self-center min-40" />
 	</div>

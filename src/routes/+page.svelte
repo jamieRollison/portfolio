@@ -26,11 +26,11 @@
 						</a>
 					</li>
 					<li>
-						<a href="/experience#intuit" class="flex flex-col items-center">
+						<a href="/experience#stripe" class="flex flex-col items-center">
 							<img
-								src="https://avatars.githubusercontent.com/u/2495066?s=200&v=4"
-								class="w-16 mb-2 rounded-full"
-								alt="intuit logo"
+								src="./stripe-logo.svg"
+								class="w-16 mb-2 h-16 rounded-full bg-light"
+								alt="stripe logo"
 							/>
 							<p class="w-fit">Android Dev</p>
 						</a>

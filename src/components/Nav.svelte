@@ -16,9 +16,9 @@
 	{#if w > 768}
 		<a href="/" class="text-light font-courgette pt-6 text-5xl no-underline">jamie</a>
 		<ul class="flex justify-evenly w-80 pt-10">
-			<li class="text-light font-sans text-xl">
+			<!-- <li class="text-light font-sans text-xl">
 				<a href="/about" class="link-trans" aria-current={$page.url.pathname === '/about'}>about</a>
-			</li>
+			</li> -->
 			<li class="text-light font-sans text-xl">
 				<a
 					href="/experience"

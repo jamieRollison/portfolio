@@ -10,6 +10,37 @@
 	<h1 class="text-center text-light text-4xl">experience</h1>
 
 	<div class="flex flex-col md:w-4/6">
+		<ExperienceDrawer id="stripe">
+			<ExperienceHeader
+				slot="title"
+				icon="/stripe-logo.svg"
+				alt="stripe logo"
+				company="Stripe"
+				position="Software Engineering Intern"
+				date="Summer 2024"
+			/>
+			<div class="px-2">
+				<h3 class="md:text-xl">Product Developer - Terminal Tap to Pay Android</h3>
+				<h4 class="invisible md:visible">Kotlin, Jetpack Compose, Android Studio, Node.js, Ruby</h4>
+
+				<ul class="list-disc px-6">
+					<li class="text-sm md:text-lg my-2">
+						Designed and implemented feature to customize the color and position of elements on the
+						Tap to Pay prompt, giving merchants control over brand identity and reduce friction when
+						accepting a contactless payment on an Android device
+					</li>
+					<li class="text-sm md:text-lg my-2">
+						Shipped intern project a month ahead of schedule, and took the opportunity to work on a
+						new project with a second team
+					</li>
+					<li class="text-sm md:text-lg my-2">
+						Refactored the simulated card reader from a deprecated Node.js server to a Ruby
+						microservice, reducing tech debt and allowing for easier logging, new feature
+						integration, and observability
+					</li>
+				</ul>
+			</div>
+		</ExperienceDrawer>
 		<ExperienceDrawer id="hack">
 			<ExperienceHeader
 				slot="title"
@@ -17,11 +48,16 @@
 				alt="hack4impact logo"
 				company="Hack4Impact"
 				position="Tech Lead | Software Developer"
-				date="September 2022 - Present"
+				date="September 2022 - January 2024"
 			/>
 			<ul class="px-6 list-disc space-y-2">
 				<li>
-					<h3 class="md:text-xl">Tech Lead - Upcoming (Fall 2023)</h3>
+					<h3 class="md:text-xl">Tech Lead - EthicsNet (Fall 2023)</h3>
+					<h4 class="invisible md:visible">React, TailwindCSS, MongoDB</h4>
+
+					<p class="text-sm md:text-lg mt-2">
+						Platform to create and manage tokens which encode ethical perspectives for AI research
+					</p>
 				</li>
 				<hr />
 				<li>
@@ -48,7 +84,7 @@
 					<h4 class="invisible md:visible">React Native, MongoDB, Expo</h4>
 
 					<p class="text-sm md:text-lg my-2">
-						App to build modular language learning courses which preserve endangered languages
+						App to build modular language learning courses that preserve endangered languages
 					</p>
 				</li>
 			</ul>

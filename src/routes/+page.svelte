@@ -11,10 +11,9 @@
 			<h1 class="text-light text-left text-5xl">hi! i'm jamie</h1>
 			<p class="text-light text-left pt-5 text-xl">
 				I'm a computer science student at the University of Illinois Urbana Champaign with a minor
-				in linguistics. Most of what I do is web development, and I love backend and frontend! But
-				I'm currently a frontend android dev at Intuit. I'm active in the UIUC <span
-					class="trans-underline-static-skinny">LGBTQ+</span
-				> and tech for good spaces. I try to make the world a better place!
+				in linguistics. I've done backend and frontend web dev, but I like mobile the most! I'm
+				active in the UIUC <span class="trans-underline-static-skinny">LGBTQ+</span> and tech for good
+				spaces. I try to make the world a better place!
 			</p>
 			<div>
 				<h2 class="text-left mt-5 text-light text-4xl">things i'm most proud of</h2>
